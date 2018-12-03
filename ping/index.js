@@ -11,7 +11,7 @@ app.get('/pong.js', function(req, res){
 });
 
 http.listen(process.env.PORT || 3000, function(){
-  console.log('listening on *:' + PORT);
+  console.log('listening on *:' + process.env.PORT);
 });
 
 sockets = new Map();
