@@ -305,9 +305,11 @@ function init() {
     });
 
     socket.on("ServerSync", function (paddleIndex, ballx, bally, paddley) {
+        /*
         ball.x = ballx;
         ball.y = bally;
         paddles[paddleIndex].y = paddley;
+        */
         
     });
 
