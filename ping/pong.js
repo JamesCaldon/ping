@@ -46,7 +46,7 @@ function createBall() {
         x: c.width/2,
         y: c.height/2,
         radius: 5,
-        xvelocity: 20,
+        xvelocity: 0,
         yvelocity: 0
     };
 }
