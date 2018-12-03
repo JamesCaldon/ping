@@ -245,17 +245,11 @@ function keydown(e) {
                 socket.emit("ClientPaddleMoveDown");
             }
             break;
-        case "a":
-            ai();
-        break;
         default:
             break;
     }
 }
 
-function ai() {
-    
-}
 
 function keyup(e) {
     switch (e) {
