@@ -3,11 +3,11 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + "\\pong.html");
+  res.sendFile(__dirname + "/pong.html");
 });
 
 app.get('/pong.js', function(req, res){
-    res.sendFile(__dirname + "\\pong.js");
+    res.sendFile(__dirname + "/pong.js");
 });
 
 http.listen(process.env.PORT || 3000, function(){
